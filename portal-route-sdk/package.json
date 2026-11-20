@@ -1,0 +1,19 @@
+{
+  "name": "portal-route-sdk-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small React Router iframe/host URL sync SDK demo",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "react-router-dom": ">=6.4 <8"
+  },
+  "sideEffects": false
+}
